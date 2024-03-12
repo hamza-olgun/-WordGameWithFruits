@@ -1,0 +1,71 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 0;
+}
+
+#oyun-container {
+  text-align: center;
+  background-color: sandybrown;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 10vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: xx-large;
+}
+
+#kelime-goruntule {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+#yanlis-tahmin {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+#tahmin-Gir {
+  padding: 20px;
+  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto 10px;
+  font-size: xx-large;
+}
+
+button {
+  padding: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: lightcoral;
+  background-color: bisque;
+}
+
+#kelimeler-container {
+  text-align: center;
+  background-color: lightsteelblue;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 14%;
+  margin-inline: 4%;
+  font-size: large;
+}
+
+#kelimeler-liste{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#kelimeler-liste li {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+#yeni-kelime{
+  font-size: xx-large;
+}

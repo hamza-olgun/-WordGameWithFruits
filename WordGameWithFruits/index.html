@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Meyvelerle Kelime Oyunu</title>
+</head>
+<body>
+  <div id="oyun-container">
+    <h1>Meyvelerle Kelime Oyunu</h1>
+    <div id="kelime-goruntule"></div>
+    <p id="yanlis-tahmin">Yanlış Tahmin Hakkı: <span id="tahmin-say">0</span>/4</p>
+    <input type="text" id="tahmin-Gir" placeholder="Bir harf girin" maxlength="1">
+    <button onclick="tahminEt()">Tahmin Et</button>
+    <button onclick="yeniOyun()">Yeni Oyun</button>
+    <button onclick="kelimeGoruntule()">Tüm Kelimeler</button>
+  </div>
+  <div id="kelimeler-container" style="display: none;">
+    <h2>Tüm Kelimeler</h2>
+    <ul id="kelimeler-liste"></ul>
+    <input type="text" id="yeni-kelime" placeholder="Yeni kelime ekle">
+    <button onclick="kelimeEkle()">Ekle</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
